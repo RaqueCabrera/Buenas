@@ -1,0 +1,320 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.BuenasJan26"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="29"
+9-->C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
+18
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-81
+19-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-78
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-80
+20-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:22-77
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-67
+21-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:22-64
+22    <uses-permission android:name="android.permission.CAMERA" />
+22-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:5-65
+22-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:22-62
+23
+24    <uses-feature
+24-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:5-19:31
+25        android:name="android.hardware.vr.headtracking"
+25-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:9-56
+26        android:required="true"
+26-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-32
+27        android:version="1" />
+27-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-28
+28    <uses-feature android:glEsVersion="0x00030000" />
+28-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:5-54
+28-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:19-51
+29    <uses-feature
+29-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:5-23:36
+30        android:name="android.hardware.vulkan.version"
+30-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:9-55
+31        android:required="false" />
+31-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:9-33
+32    <uses-feature
+32-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:5-26:36
+33        android:name="android.hardware.camera"
+33-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:9-47
+34        android:required="false" />
+34-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:9-33
+35    <uses-feature
+35-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:5-29:36
+36        android:name="android.hardware.camera.autofocus"
+36-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:9-57
+37        android:required="false" />
+37-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:9-33
+38    <uses-feature
+38-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:5-32:36
+39        android:name="android.hardware.camera.front"
+39-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:31:9-53
+40        android:required="false" />
+40-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:32:9-33
+41    <uses-feature
+41-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:33:5-35:36
+42        android:name="android.hardware.touchscreen"
+42-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:34:9-52
+43        android:required="false" />
+43-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:35:9-33
+44    <uses-feature
+44-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:36:5-38:36
+45        android:name="android.hardware.touchscreen.multitouch"
+45-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:37:9-63
+46        android:required="false" />
+46-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:38:9-33
+47    <uses-feature
+47-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:39:5-41:36
+48        android:name="android.hardware.touchscreen.multitouch.distinct"
+48-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:40:9-72
+49        android:required="false" />
+49-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:41:9-33
+50
+51    <uses-permission android:name="com.oculus.permission.USE_ANCHOR_API" />
+51-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:43:5-76
+51-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:43:22-73
+52
+53    <uses-feature
+53-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:45:5-47:35
+54        android:name="com.oculus.feature.PASSTHROUGH"
+54-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:46:9-54
+55        android:required="true" />
+55-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:47:9-32
+56    <uses-feature
+56-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:48:5-50:36
+57        android:name="com.oculus.software.body_tracking"
+57-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:49:9-57
+58        android:required="false" />
+58-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:50:9-33
+59
+60    <uses-permission android:name="com.oculus.permission.BODY_TRACKING" />
+60-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:52:5-75
+60-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:52:22-72
+61
+62    <uses-feature
+62-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:5-56:36
+63        android:name="oculus.software.face_tracking"
+63-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:55:9-53
+64        android:required="false" />
+64-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:56:9-33
+65
+66    <uses-permission android:name="com.oculus.permission.FACE_TRACKING" />
+66-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:58:5-75
+66-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:58:22-72
+67    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+67-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:59:5-71
+67-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:59:22-68
+68
+69    <uses-feature
+69-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:61:5-63:36
+70        android:name="oculus.software.eye_tracking"
+70-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:62:9-52
+71        android:required="false" />
+71-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:63:9-33
+72
+73    <uses-permission android:name="com.oculus.permission.EYE_TRACKING" />
+73-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:65:5-74
+73-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:65:22-71
+74    <uses-permission android:name="com.oculus.permission.USE_SCENE" />
+74-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:66:5-71
+74-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:66:22-68
+75    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+75-->[:AgoraScreenShareExtension:] C:\Users\Raque\.gradle\caches\transforms-3\9b5c02fb6ecbb6bcfd725e472e4f8544\transformed\AgoraScreenShareExtension\AndroidManifest.xml:7:5-77
+75-->[:AgoraScreenShareExtension:] C:\Users\Raque\.gradle\caches\transforms-3\9b5c02fb6ecbb6bcfd725e472e4f8544\transformed\AgoraScreenShareExtension\AndroidManifest.xml:7:22-74
+76    <uses-permission android:name="android.permission.BLUETOOTH" />
+76-->[:unityLibrary:AgoraRtcEngineKit.plugin] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:5-68
+76-->[:unityLibrary:AgoraRtcEngineKit.plugin] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:22-65
+77    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+77-->[:unityLibrary:AgoraRtcEngineKit.plugin] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:5-80
+77-->[:unityLibrary:AgoraRtcEngineKit.plugin] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:22-77
+78    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+78-->[:unityLibrary:AgoraRtcEngineKit.plugin] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:5-79
+78-->[:unityLibrary:AgoraRtcEngineKit.plugin] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:22-76
+79    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+79-->[:unityLibrary:AgoraRtcEngineKit.plugin] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:5-76
+79-->[:unityLibrary:AgoraRtcEngineKit.plugin] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:22-73
+80
+81    <application
+81-->C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
+82        android:allowBackup="false"
+82-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:69:9-36
+83        android:extractNativeLibs="true"
+83-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:70:9-41
+84        android:icon="@mipmap/app_icon"
+84-->C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
+85        android:label="@string/app_name"
+85-->C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
+86        android:networkSecurityConfig="@xml/network_sec_config"
+86-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:73:9-64
+87        android:requestLegacyExternalStorage="true" >
+87-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:74:9-52
+88        <meta-data
+88-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:75:9-77:37
+89            android:name="unityplayer.SkipPermissionsDialog"
+89-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:76:13-61
+90            android:value="false" />
+90-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:77:13-34
+91        <meta-data
+91-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:78:9-80:39
+92            android:name="com.samsung.android.vr.application.mode"
+92-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:79:13-67
+93            android:value="vr_only" />
+93-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:80:13-36
+94        <meta-data
+94-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:81:9-83:37
+95            android:name="com.oculus.ossplash.background"
+95-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:82:13-58
+96            android:value="black" />
+96-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:83:13-34
+97        <meta-data
+97-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:84:9-86:54
+98            android:name="com.oculus.supportedDevices"
+98-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:85:13-55
+99            android:value="quest2|questpro|eureka" />
+99-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:86:13-51
+100        <meta-data
+100-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:87:9-89:33
+101            android:name="unity.splash-mode"
+101-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:88:13-45
+102            android:value="0" />
+102-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:89:13-30
+103        <meta-data
+103-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:90:9-92:36
+104            android:name="unity.splash-enable"
+104-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:91:13-47
+105            android:value="True" />
+105-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:92:13-33
+106        <meta-data
+106-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:93:9-95:36
+107            android:name="unity.launch-fullscreen"
+107-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:94:13-51
+108            android:value="True" />
+108-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:95:13-33
+109        <meta-data
+109-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:96:9-98:37
+110            android:name="unity.allow-resizable-window"
+110-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:97:13-56
+111            android:value="False" />
+111-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:98:13-34
+112        <meta-data
+112-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:99:9-101:50
+113            android:name="notch.config"
+113-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:100:13-40
+114            android:value="portrait|landscape" />
+114-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:101:13-47
+115        <meta-data
+115-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:102:9-104:36
+116            android:name="unity.auto-report-fully-drawn"
+116-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:103:13-57
+117            android:value="true" />
+117-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:104:13-33
+118
+119        <activity
+119-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:106:9-129:20
+120            android:name="com.unity3d.player.UnityPlayerActivity"
+120-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:107:13-66
+121            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode|density"
+121-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:108:13-122
+122            android:excludeFromRecents="true"
+122-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:109:13-46
+123            android:exported="true"
+123-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:110:13-36
+124            android:hardwareAccelerated="false"
+124-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:111:13-48
+125            android:launchMode="singleTask"
+125-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:112:13-44
+126            android:resizeableActivity="false"
+126-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:113:13-47
+127            android:screenOrientation="landscape"
+127-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:114:13-50
+128            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+128-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:115:13-77
+129            <intent-filter>
+129-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:116:13-121:29
+130                <category android:name="android.intent.category.LAUNCHER" />
+130-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:117:17-77
+130-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:117:27-74
+131                <category android:name="com.oculus.intent.category.VR" />
+131-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:118:17-74
+131-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:118:27-71
+132
+133                <action android:name="android.intent.action.MAIN" />
+133-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:120:17-69
+133-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:120:25-66
+134            </intent-filter>
+135
+136            <meta-data
+136-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:123:13-125:40
+137                android:name="com.oculus.vr.focusaware"
+137-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:124:17-56
+138                android:value="true" />
+138-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:125:17-37
+139            <meta-data
+139-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:126:13-128:40
+140                android:name="notch_support"
+140-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:127:17-45
+141                android:value="true" />
+141-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:128:17-37
+142        </activity>
+143
+144        <meta-data
+144-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:131:9-133:37
+145            android:name="com.unity.xr.oculus.LowOverheadMode"
+145-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:132:13-63
+146            android:value="false" />
+146-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:133:13-34
+147        <meta-data
+147-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:134:9-136:37
+148            android:name="com.unity.xr.oculus.LateLatching"
+148-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:135:13-60
+149            android:value="false" />
+149-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:136:13-34
+150        <meta-data
+150-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:137:9-139:37
+151            android:name="com.unity.xr.oculus.LateLatchingDebug"
+151-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:138:13-65
+152            android:value="false" />
+152-->[:unityLibrary] C:\Users\Raque\BuenasJan26\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:139:13-34
+153
+154        <activity
+154-->[:AgoraScreenShareExtension:] C:\Users\Raque\.gradle\caches\transforms-3\9b5c02fb6ecbb6bcfd725e472e4f8544\transformed\AgoraScreenShareExtension\AndroidManifest.xml:10:9-13:63
+155            android:name="io.agora.rtc2.extensions.MediaProjectionMgr$LocalScreenCaptureAssistantActivity"
+155-->[:AgoraScreenShareExtension:] C:\Users\Raque\.gradle\caches\transforms-3\9b5c02fb6ecbb6bcfd725e472e4f8544\transformed\AgoraScreenShareExtension\AndroidManifest.xml:10:19-89
+156            android:configChanges="screenSize|orientation"
+156-->[:AgoraScreenShareExtension:] C:\Users\Raque\.gradle\caches\transforms-3\9b5c02fb6ecbb6bcfd725e472e4f8544\transformed\AgoraScreenShareExtension\AndroidManifest.xml:11:13-59
+157            android:screenOrientation="fullUser"
+157-->[:AgoraScreenShareExtension:] C:\Users\Raque\.gradle\caches\transforms-3\9b5c02fb6ecbb6bcfd725e472e4f8544\transformed\AgoraScreenShareExtension\AndroidManifest.xml:12:13-49
+158            android:theme="@android:style/Theme.Translucent" />
+158-->[:AgoraScreenShareExtension:] C:\Users\Raque\.gradle\caches\transforms-3\9b5c02fb6ecbb6bcfd725e472e4f8544\transformed\AgoraScreenShareExtension\AndroidManifest.xml:13:13-61
+159
+160        <service
+160-->[:AgoraScreenShareExtension:] C:\Users\Raque\.gradle\caches\transforms-3\9b5c02fb6ecbb6bcfd725e472e4f8544\transformed\AgoraScreenShareExtension\AndroidManifest.xml:15:9-18:19
+161            android:name="io.agora.rtc2.extensions.MediaProjectionMgr$LocalScreenSharingService"
+161-->[:AgoraScreenShareExtension:] C:\Users\Raque\.gradle\caches\transforms-3\9b5c02fb6ecbb6bcfd725e472e4f8544\transformed\AgoraScreenShareExtension\AndroidManifest.xml:16:13-73
+162            android:foregroundServiceType="mediaProjection" >
+162-->[:AgoraScreenShareExtension:] C:\Users\Raque\.gradle\caches\transforms-3\9b5c02fb6ecbb6bcfd725e472e4f8544\transformed\AgoraScreenShareExtension\AndroidManifest.xml:17:13-60
+163        </service>
+164    </application>
+165
+166</manifest>
